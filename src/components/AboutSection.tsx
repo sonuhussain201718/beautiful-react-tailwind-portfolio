@@ -11,19 +11,27 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Backend & Frontend Developer & Tech Creator
             </h3>
-            <p className="text-muted-foreground">
+            {/* <p className="text-muted-foreground">
               With over 5 years of experiance in web development, I specialize
               in creating responsive, accessible, and perfomant web applications
               using modern technologies
-            </p>
+            </p> */}
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions of complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I'm a passionate Backend Developer with over 5 years of
+              professional experience designing and developing scalable
+              server-side applications. My expertise includes building REST
+              APIs, microservices, database design, authentication systems,
+              payment integrations, and cloud deployments. Throughout my career,
+              I have worked on fintech, government, and travel management
+              projects, where I developed secure backend services, optimized
+              databases, implemented logging and monitoring, and collaborated
+              with cross-functional teams using Agile methodologies. I enjoy
+              solving complex backend challenges, improving application
+              performance, and continuously learning modern technologies to
+              deliver reliable and efficient software solutions.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -47,10 +55,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
+                  <h4 className="font-semibold text-lg">Backend Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Designing scalable RESTful APIs and microservices using
+                    Node.js, Express.js, and NestJS.
                   </p>
                 </div>
               </div>
@@ -61,10 +69,13 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">
+                    Database Engineering
+                  </h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing and optimizing PostgreSQL, MongoDB, and Oracle
+                    databases with high-performance queries and secure data
+                    management.
                   </p>
                 </div>
               </div>
@@ -75,10 +86,10 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Cloud & DevOps </h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to cmpletion with agile
-                    methodologies.
+                    Docker, Azure DevOps, GitHub Actions, CI/CD pipelines,
+                    logging, monitoring, and deployment automation.
                   </p>
                 </div>
               </div>

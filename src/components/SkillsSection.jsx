@@ -2,29 +2,41 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "Frontend" },
-  { name: "JavaScript", level: 90, category: "Frontend" },
-  { name: "React", level: 95, category: "Frontend" },
-  { name: "TypeScript", level: 85, category: "Frontend" },
-  { name: "Tailwind CSS", level: 95, category: "Frontend" },
-  { name: "Next.js", level: 80, category: "Frontend" },
-
   // Backend
   { name: "Node.js", level: 95, category: "Backend" },
-  { name: "Express", level: 80, category: "Backend" },
-  { name: "MongoDB", level: 95, category: "Backend" },
-  { name: "Postgres", level: 65, category: "Backend" },
-  { name: "GraphQL", level: 60, category: "Backend" },
+  { name: "Express.js", level: 95, category: "Backend" },
+  { name: "NestJS", level: 90, category: "Backend" },
+  { name: "TypeScript", level: 90, category: "Backend" },
+  { name: "REST API", level: 95, category: "Backend" },
+  { name: "JWT Authentication", level: 90, category: "Backend" },
+  { name: "Microservices", level: 85, category: "Backend" },
+  { name: "Socket.IO", level: 80, category: "Backend" },
 
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "Tools" },
-  { name: "Docker", level: 70, category: "Tools" },
-  { name: "Figma", level: 85, category: "Tools" },
-  { name: "VS Code", level: 95, category: "Tools" },
+  // Databases
+  { name: "PostgreSQL", level: 90, category: "Databases" },
+  { name: "MongoDB", level: 90, category: "Databases" },
+  { name: "Oracle Database", level: 85, category: "Databases" },
+  { name: "SQL", level: 90, category: "Databases" },
+  { name: "Query Optimization", level: 85, category: "Databases" },
+
+  // DevOps
+  { name: "Docker", level: 80, category: "DevOps" },
+  { name: "Azure DevOps", level: 80, category: "DevOps" },
+  { name: "Git", level: 90, category: "DevOps" },
+  { name: "GitHub", level: 90, category: "DevOps" },
+  { name: "Linux", level: 80, category: "DevOps" },
+  { name: "PM2", level: 85, category: "DevOps" },
+
+  // Frontend
+  { name: "React", level: 75, category: "Frontend" },
+  { name: "JavaScript", level: 90, category: "Frontend" },
+  { name: "HTML5", level: 90, category: "Frontend" },
+  { name: "CSS3", level: 85, category: "Frontend" },
+  { name: "Tailwind CSS", level: 80, category: "Frontend" },
+  { name: "Bootstrap", level: 90, category: "Frontend" },
 ];
 
-const catogories = ["all", "Frontend", "Backend", "Tools"];
+const categories = ["all", "Frontend", "Backend", "Databases", "DevOps"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -40,7 +52,7 @@ export const SkillsSection = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {catogories.map((category, key) => (
+          {categories.map((category, key) => (
             <button
               key={key}
               onClick={() => setActiveCategory(category)}

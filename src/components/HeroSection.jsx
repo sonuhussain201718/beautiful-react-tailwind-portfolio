@@ -19,13 +19,17 @@ export const HeroSection = () => {
               Hussain
             </span>
           </h1>
-
+            <span className="text-right mt-1 animate-fade-in-delay-3">Backend Developer | Node.js | NestJS | PostgreSQL | MongoDB</span>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-aut opacity-0 animate-fade-in-delay-3">
-            I create steller web experiance with modern technologies.
-            Speciallizeing in fron-end development, i build interfaces that are
-            both beautiful and functional.
+            
+           
+          I am a Backend Developer with 5+ years of experience building secure,
+          scalable, and high-performance web applications and RESTful APIs. I
+          specialize in Node.js, Express.js, NestJS, PostgreSQL, MongoDB, and
+          Oracle, with hands-on experience in fintech, government, and travel
+          domain projects.
           </p>
-
+         
           <div className="pt-3 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
               View My Work

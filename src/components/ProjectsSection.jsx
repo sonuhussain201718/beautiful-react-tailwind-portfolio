@@ -4,31 +4,114 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/PD-1.webp",
-    tags: ["React", "Tailwind", "Supabase"],
+    title: "Alex Tour & Travel Platform",
+    description:
+      "Developed scalable backend services for a travel and booking platform. Built secure REST APIs, implemented authentication, integrated third-party services, optimized database performance, and contributed to a microservices-based architecture supporting customer bookings and business operations.",
+    image: "/projects/Alex.png",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "MongoDB",
+      "REST API",
+      "Microservices",
+      "JWT",
+      "Redis",
+      "Git",
+      "CI/CD",
+    ],
     demoUrl: "#",
     githubUrl: "#",
   },
 
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "IPPB Core Banking Integration",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/PD-3.webp",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Worked on India Post Payments Bank (IPPB) backend systems by integrating Core Banking System (CBS) with ISO 8583 financial messaging. Developed secure transaction APIs, ensured end-to-end transaction confirmation, and optimized Oracle and PostgreSQL database operations.",
+    image: "/projects/IPPB.png",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "Oracle DB",
+      "TypeORM",
+      "PostgreSQL",
+      "ISO 8583",
+      "Redis",
+    ],
     demoUrl: "#",
     githubUrl: "#",
   },
+
   {
     id: 3,
-    title: "E-Commerce Platform",
+    title: "UPSC NGRP Portal",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/PD-4.webp",
-    tags: ["React", "Node.js", "Stripe"],
+      "Developed and maintained backend modules for the National Government Records Portal (NGRP). Managed PostgreSQL and MongoDB databases, implemented replication, automated backups, and optimized large-scale government data processing.",
+    image: "/projects/UPSC.jpg",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "MongoDB",
+      "Database Replication",
+      "Backup Automation",
+    ],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 4,
+    title: "UPSC One-Time Registration (OTR)",
+    description:
+      "Designed and maintained secure backend APIs for the UPSC One-Time Registration system. Focused on user authentication, database management, API optimization, and reliable data processing for large-scale government applications.",
+    image: "/projects/otr.jpg",
+    tags: ["Node.js", "Express.js", "PostgreSQL", "JWT", "REST API"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 5,
+    title: "Timesheet Management System",
+    description:
+      "Built a web-based employee timesheet management system with project allocation, attendance tracking, reporting, and analytics. Developed backend APIs and optimized PostgreSQL queries for improved performance.",
+    image: "/projects/timesheet.png",
+    tags: ["Node.js", "Express.js", "PostgreSQL", "REST API"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 6,
+    title: "Accounting Tools",
+    description:
+      "Developed backend modules for financial management, including invoice generation, expense tracking, tax calculation, and reporting. Focused on secure APIs and optimized PostgreSQL database operations.",
+    image: "/projects/accounting.png",
+    tags: ["Node.js", "PostgreSQL", "REST API"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 7,
+    title: "Insurance Portal",
+    description:
+      "Developed secure backend services for an insurance management platform handling policies, claims, and customer accounts. Designed RESTful APIs and optimized PostgreSQL database performance.",
+    image: "/projects/tmill.jpg",
+    tags: ["Node.js", "PostgreSQL", "REST API", "Secure APIs"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 8,
+    title: "Track & Trace System",
+    description:
+      "Implemented backend services for a real-time logistics and supply chain tracking solution. Developed APIs for shipment tracking, inventory updates, and data synchronization using MongoDB and PostgreSQL.",
+    image: "/projects/track.png",
+    tags: ["Node.js", "MongoDB", "PostgreSQL", "REST API"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -45,8 +128,11 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to details, performance, and user experience.
+          Here are some of the enterprise-grade projects I've contributed to
+          throughout my career. These projects demonstrate my expertise in
+          designing scalable backend architectures, developing secure RESTful
+          APIs, optimizing databases, and delivering high-performance solutions
+          across fintech, government, and travel domains.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

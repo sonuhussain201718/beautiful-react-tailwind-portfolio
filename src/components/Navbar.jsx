@@ -33,13 +33,13 @@ export const Navbar = () => {
           : "py-5",
       )}
     >
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-around">
         <a
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
+            <span className="text-glow text-foreground"> Sonu Hussain </span>{" "}
             Portfolio
           </span>
         </a>

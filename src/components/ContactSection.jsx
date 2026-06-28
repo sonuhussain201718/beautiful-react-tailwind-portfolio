@@ -78,7 +78,7 @@ export const ContactSection = () => {
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     {" "}
-                    Vancouver, BC, Canada
+                    Noida, UP, India
                   </a>
                 </div>
               </div>
@@ -120,7 +120,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Sonu Hussain..."
                 />
               </div>
 

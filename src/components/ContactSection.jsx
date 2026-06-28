@@ -120,7 +120,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Sonu Hussain..."
+                  placeholder="Enter your name"
                 />
               </div>
 
@@ -138,13 +138,13 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="Enter your email"
                 />
               </div>
 
               <div>
                 <label
-                  htmlFor="name"
+                  htmlFor="message"
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
@@ -155,7 +155,7 @@ export const ContactSection = () => {
                   name="message"
                   required
                   className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="Enter your message"
                 />
               </div>
 
